@@ -2,6 +2,11 @@
     {
         "title": "Test Title",
         "text": "Test text",
-        "note_id": "uuidv4()"
+        "note_id": ""
+    },
+    {
+        "title": "Shopping List",
+        "text": "Eggs\nTomatoes",
+        "note_id": "f00cd483-b07d-4723-87d9-bc3b2a25b568"
     }
 ]
