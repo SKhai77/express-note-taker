@@ -1,11 +1,15 @@
+// Import express.js
 const express = require('express');
+// Import built-in Node.js package 'path' to resolve path of files that are located on the server
 const path = require('path');
 
-// // Import the feedback router
+// Import the api router
 const api = require('./routes/api');
 
+// Specify on which port the Express.js server will run
 const PORT = process.env.PORT || 3001;
 
+// Initialize an instance of Express.js
 const app = express();
 
 // Middleware for parsing JSON and urlencoded form data
@@ -28,6 +32,7 @@ app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
+// listen() method is responsible for listening for incoming connections on the specified port 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
