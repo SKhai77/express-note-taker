@@ -19,8 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 // Middleware to serve up static assets from the public folder
 app.use(express.static('public'));
 
-// Send all the requests that begin with /api to the notes.js in the routes folder
-app.use('/api', api);
+
 
 // This view route is a GET route for the notes page
 app.get('/notes', (req, res) =>
