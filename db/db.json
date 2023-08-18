@@ -1,12 +1,12 @@
 [
     {
-        "title": "My Title",
-        "text": "Note text",
-        "id": ""
-    },
-    {
         "title": "Grocery List",
         "text": "Rice\nEggs\nBeans\nTomatoes",
         "id": "0e46f3ca-d853-43ff-85e3-f714a93c5675"
+    },
+    {
+        "title": "08/30/23 To Do List",
+        "text": "1. Call for dental appointment by 9AM\n2. Pickup kids from school by 4PM\n3. Shop for groceries by 6PM\n4. Join online service via Zoom by 7:30PM",
+        "id": "33b01eee-7251-41ba-840a-341a22771414"
     }
 ]
