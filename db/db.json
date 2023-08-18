@@ -1,12 +1,12 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "note_id": ""
+        "title": "My Title",
+        "text": "Note text",
+        "id": ""
     },
     {
-        "title": "Shopping List",
-        "text": "Eggs\nTomatoes",
-        "note_id": "f00cd483-b07d-4723-87d9-bc3b2a25b568"
+        "title": "Grocery List",
+        "text": "Rice\nEggs\nBeans\nTomatoes",
+        "id": "0e46f3ca-d853-43ff-85e3-f714a93c5675"
     }
 ]
